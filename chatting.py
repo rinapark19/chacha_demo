@@ -34,6 +34,7 @@ def main():
     os.environ["OPENAI_API_KEY"] = st.secrets["openai_key"]
     
     st.subheader("캐릭터를 생성해서 대화해 보세요!")
+    st.info("좌측 상단의 > 를 눌러 캐릭터를 설정한 뒤에 대화하세요.")
     
     st.sidebar.title("캐릭터 세팅")
     
